@@ -127,28 +127,7 @@ void setup() {
  lcd.begin(16,2);
  // clear the LCD screen:
  lcd.clear();
- 
-
-        // get the standing man part on the screen:
-        standingMan();
-       // delay(y);
-    lcd.setCursor(4,0);
-    lcd.print("Engineering ");
-
-   lcd.setCursor(4,1);
-   lcd.print("project with"); 
-   delay(5000);
-   lcd.clear();
-   standingMan();
-       // delay(y);
-    lcd.setCursor(4,0);
-    lcd.print("Praveen");
-
-   lcd.setCursor(4,1);
-   lcd.print("      Dehari"); 
-   delay(5000);
-        lcd.clear();
-        }
+ }
 
 //putting all the pieces together in a loop:
 void loop() {
